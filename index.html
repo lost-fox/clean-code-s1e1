@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <div class="container-title">
       <img src="./eisenhower-matrix.jpg">
-      <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="more-information" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
+    <div class="container-applications">
+      <p id="task-title-wrapper">
         <label for="new-task">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task"class="task" type="text">
@@ -19,7 +19,7 @@
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="incomplete-tasks">
+      <ul id="incomplete-tasks-wrapper">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -29,7 +29,7 @@
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="edit-mode">
+        <li class="edits-task">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="go shopping" class="task">
@@ -40,7 +40,7 @@
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
+      <ul id="completed-tasks-wrapper">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
